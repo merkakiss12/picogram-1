@@ -4,6 +4,6 @@ import './style.less';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Logo from './components/logo';
+import Picogram from './picogram';
 
-ReactDOM.render(<Logo />, document.getElementById('picogram'));
+ReactDOM.render(<Picogram />, document.getElementById('picogram'));
