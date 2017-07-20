@@ -10,6 +10,7 @@ class Like extends React.Component {
   }
 
   addLike() {
+
     this.setState({likes: this.state.likes + 1})
   }
 
